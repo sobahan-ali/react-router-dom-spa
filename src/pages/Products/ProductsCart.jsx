@@ -4,7 +4,7 @@ const ProductsCart = ({ product }) => {
     const navigate = useNavigate();
     const handleSingleProductNavigate = () => {
         // console.log('prod');
-        const user = !true;
+        const user = true;
         if (user) {
             navigate(`/products/${id}`)
         } else {
